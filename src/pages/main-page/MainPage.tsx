@@ -7,6 +7,8 @@ import clsx from 'clsx';
 
 import iconEva from 'assets/img/banner/banner-icon-yellow.png';
 import image1 from 'assets/img/main-pg/how-call-evacuator.png';
+import image2 from 'assets/img/main-pg/evacuator-24.png'
+import image3 from 'assets/img/main-pg/top-car.png'
 
 export const MainPage = () => {
     return (
@@ -53,6 +55,32 @@ export const MainPage = () => {
                                 alt="Как вызвать эвакуатор в Москве
                             дешево?"
                             />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className={styles.block3}>
+                <div className="container">
+                    <h3>Что нужно знать, чтобы заказать эвакуатор в Москве</h3>
+                    <div className={styles.row}>
+                        <div className={styles.item}>
+                            <div className={styles.image}>
+                                <img src={image2} alt="Заказы на вызов эвакуатора"/>
+                            </div>
+                            <p>Заказы на вызов эвакуатора в Москве перевозчики-партнеры “Тут Эвакуатор” принимают
+                                круглосуточно. Когда бы вы не позвонили, эвакуатор найдется всегда. Размещая заказ
+                                на эвакуатор, ознакомьтесь с информацией
+                                о транспортной компании, проконсультируйтесь
+                                с ее специалистами и выберите оптимальный вариант перевозки своего ТС.</p>
+                        </div>
+                        <div className={styles.item}>
+                            <div className={styles.image}>
+                                <img src={image3} alt="Разные классы авто"/>
+                            </div>
+                            <p>Примите во внимание, что одни и те же виды эвакуаторов рассчитаны на транспортировку авто
+                                разных классов. Вопрос заключается лишь в том, какой тип эвакуатор будет выгоднее
+                                задействовать в вашем случае. Следуя рекомендациям перевозчика, вы сможете недорого
+                                эвакуировать авто как в Москве, так и в области.</p>
                         </div>
                     </div>
                 </div>

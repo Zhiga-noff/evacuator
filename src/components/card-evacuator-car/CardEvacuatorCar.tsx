@@ -18,7 +18,7 @@ export const CardEvacuatorCar = () => {
         if (!page.length) {
             fetch(BASE_URL).then((res) => res.json()).then(data => {
                 setPage(rageElement(data.length))
-            })
+            }).catch(er => er)
         }
 
         fetch(`${BASE_URL}?_page=${activePage}&_limit=4`)
@@ -28,8 +28,7 @@ export const CardEvacuatorCar = () => {
                     setCardInfo(data)
                     setLoading(false)
                 }, 1500)
-
-            })
+            }).catch(er => er)
     }, [activePage])
 
     function rageElement(size: number): number[] {
@@ -67,12 +66,12 @@ export const CardEvacuatorCar = () => {
                         return <button className={clsx({[styles.active]: item === activePage})} key={index}
                                        onClick={() => setNewActPage(item)}>{item}</button>
                     })}
-                    <button onClick={() => setNewActPage(activePage + 1)}>
+                    {page.length !== 0 && <button onClick={() => setNewActPage(activePage + 1)}>
                         <svg fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.5" y="0.5" rx="5.5" stroke="#0297D4"/>
                             <path d="M21 14L33 26L21 38" stroke="#0297D4" strokeWidth="2" strokeLinecap="round"/>
                         </svg>
-                    </button>
+                    </button>}
                 </div>
             </div>
         </section>

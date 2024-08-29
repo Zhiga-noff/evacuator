@@ -1,8 +1,9 @@
+@import "src/assets/style/colors";
+
 .main {
   padding-top: 154px;
 }
 
-@import "src/assets/style/colors";
 
 .banner {
   display: flex;
@@ -68,6 +69,40 @@
 
     img {
       width: 100%;
+    }
+  }
+}
+
+.block3 {
+  background-color: $yellow;
+  padding: 100px 0;
+
+  h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    //column-gap: ;
+  }
+
+  .item {
+    flex: 0 0 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image {
+    max-height: 289px;
+    margin-bottom: 32px;
+
+    img {
+      height: 100%;
     }
   }
 }
