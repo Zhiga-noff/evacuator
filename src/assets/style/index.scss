@@ -5,9 +5,19 @@
 body {
   font-family: "SFProDisplay", serif;
   font-weight: 400;
+  color: $text;
+  font-size: 26px;
 }
 
 .container {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.btn {
+  @extend %btn
+}
+
+.input {
+  @extend %input
 }

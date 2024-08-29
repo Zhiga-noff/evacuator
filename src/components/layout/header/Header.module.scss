@@ -1,0 +1,46 @@
+@import "src/assets/style/colors";
+
+header {
+  padding: 21px 100px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
+.headerRow {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+}
+
+.rowBtn {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 135px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 78px;
+
+  a {
+    color: $text;
+    transition-duration: .3s;
+
+    &:hover {
+      color: $cyanDef;
+    }
+  }
+}
+
+.btn {
+  padding: 16px 36px;
+}
