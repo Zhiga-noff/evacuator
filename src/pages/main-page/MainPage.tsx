@@ -9,6 +9,8 @@ import iconEva from 'assets/img/banner/banner-icon-yellow.png';
 import image1 from 'assets/img/main-pg/how-call-evacuator.png';
 import image2 from 'assets/img/main-pg/evacuator-24.png'
 import image3 from 'assets/img/main-pg/top-car.png'
+import {priceInfoConstant} from "../../libs/constants/price-info.constant";
+import {PriceInfoCard} from "../../components/price-info-card/PriceInfoCard";
 
 export const MainPage = () => {
     return (
@@ -82,6 +84,16 @@ export const MainPage = () => {
                                 задействовать в вашем случае. Следуя рекомендациям перевозчика, вы сможете недорого
                                 эвакуировать авто как в Москве, так и в области.</p>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="container">
+                    <h3></h3>
+                    <p></p>
+                    <b></b>
+                    <div className="">
+                        {priceInfoConstant.map(item => <PriceInfoCard/>)}
                     </div>
                 </div>
             </section>
