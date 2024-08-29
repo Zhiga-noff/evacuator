@@ -1,0 +1,311 @@
+{
+  "routes": {
+    "/advertisement": "/users?_page=:page&_limit=:limit"
+  },
+  "advertisement": [
+    {
+      "id": 1,
+      "name": "Эвакуатор",
+      "img": "https://i.postimg.cc/mgFfHcmZ/Photo-01.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": null,
+        "microbus": null,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Эвакуатор авто. Всегда на связи! Быстро и надежно"
+    },
+    {
+      "id": 2,
+      "name": "Эвакуатор",
+      "img": "https://i.postimg.cc/x8rgBCK5/Photo-02.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": 4000,
+        "microbus": 6000,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Круглосуточно. Стоянка в районе метро Технопарк, быстро доберусь в любую точку города."
+    },
+    {
+      "id": 3,
+      "name": "Эвакуатор",
+      "img": "https://i.postimg.cc/mgFfHcmZ/Photo-01.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": null,
+        "microbus": null,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Эвакуатор авто. Всегда на связи! Быстро и надежно"
+    },
+    {
+      "id": 4,
+      "name": "Эвакуатор",
+      "img": "https://i.postimg.cc/x8rgBCK5/Photo-02.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": 4000,
+        "microbus": 6000,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Круглосуточно. Стоянка в районе метро Технопарк, быстро доберусь в любую точку города."
+    },
+    {
+      "id": 5,
+      "name": "RЭвакуатор",
+      "img": "https://i.postimg.cc/mgFfHcmZ/Photo-01.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": null,
+        "microbus": null,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Москва, ул Пушкина"
+    },
+    {
+      "id": 6,
+      "name": "Эвакуатор",
+      "img": "https://i.postimg.cc/x8rgBCK5/Photo-02.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": 4000,
+        "microbus": 6000,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Круглосуточно. Стоянка в районе метро Технопарк, быстро доберусь в любую точку города."
+    },
+    {
+      "id": 7,
+      "name": "Эвакуатор",
+      "img": "https://i.postimg.cc/mgFfHcmZ/Photo-01.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": null,
+        "microbus": null,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Москва, ул Пушкина"
+    },
+    {
+      "id": 8,
+      "name": "Эвакуатор",
+      "img": "https://i.postimg.cc/x8rgBCK5/Photo-02.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": 4000,
+        "microbus": 6000,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Круглосуточно. Стоянка в районе метро Технопарк, быстро доберусь в любую точку города."
+    },
+    {
+      "id": 9,
+      "name": "WЭвакуатор",
+      "img": "https://i.postimg.cc/mgFfHcmZ/Photo-01.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": null,
+        "microbus": null,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Москва, ул Пушкина"
+    },
+    {
+      "id": 10,
+      "name": "Эвакуатор",
+      "img": "https://i.postimg.cc/x8rgBCK5/Photo-02.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": 4000,
+        "microbus": 6000,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Круглосуточно. Стоянка в районе метро Технопарк, быстро доберусь в любую точку города."
+    },
+    {
+      "id": 11,
+      "name": "Эвакуатор",
+      "img": "https://i.postimg.cc/mgFfHcmZ/Photo-01.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": null,
+        "microbus": null,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Москва, ул Пушкина"
+    },
+    {
+      "id": 12,
+      "name": "Эвакуатор",
+      "img": "https://i.postimg.cc/x8rgBCK5/Photo-02.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": 4000,
+        "microbus": 6000,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Круглосуточно. Стоянка в районе метро Технопарк, быстро доберусь в любую точку города."
+    },
+    {
+      "id": 13,
+      "name": "Эвакуатор",
+      "img": "https://i.postimg.cc/mgFfHcmZ/Photo-01.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": null,
+        "microbus": null,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Москва, ул Пушкина"
+    },
+    {
+      "id": 14,
+      "name": "EЭвакуатор",
+      "img": "https://i.postimg.cc/x8rgBCK5/Photo-02.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": 4000,
+        "microbus": 6000,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Круглосуточно. Стоянка в районе метро Технопарк, быстро доберусь в любую точку города."
+    },
+    {
+      "id": 15,
+      "name": "Эвакуатор",
+      "img": "https://i.postimg.cc/mgFfHcmZ/Photo-01.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": null,
+        "microbus": null,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Москва, ул Пушкина"
+    },
+    {
+      "id": 16,
+      "name": "Эвакуатор",
+      "img": "https://i.postimg.cc/x8rgBCK5/Photo-02.png",
+      "price": {
+        "auto": 5000,
+        "moto": 3000,
+        "crossover": 4000,
+        "microbus": 6000,
+        "country": 50
+      },
+      "contact": {
+        "phone1": "+7 999 99 99",
+        "phone2": "+7 999 99 99",
+        "whatsapp": null
+      },
+      "geo": "Москва, ул Пушкина",
+      "comments": "Круглосуточно. Стоянка в районе метро Технопарк, быстро доберусь в любую точку города."
+    }
+  ]
+}

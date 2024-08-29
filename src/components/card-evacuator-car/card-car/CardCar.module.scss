@@ -1,0 +1,108 @@
+@import "src/assets/style/colors";
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px 48px;
+  box-shadow: 2px 2px 10px 2px rgba(39, 52, 58, 0.15);
+
+  h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+  }
+}
+
+.cardRow {
+  display: flex;
+  align-items: stretch;
+  column-gap: 28px;
+  justify-content: stretch;
+  margin-bottom: 28px;
+}
+
+.image {
+  max-width: 414px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-size: 20px;
+  flex: 1 1 auto;
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2F4F8;
+    border-radius: 10px;
+    color: #777777;
+    row-gap: 12px;
+    padding: 16px 20px;
+  }
+
+  .sell {
+    font-weight: 700;
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex: 1 1 336px;
+
+  a {
+    margin-bottom: 12px;
+
+    &:last-child {
+      margin-bottom: 21px;
+    }
+  }
+}
+
+.geolocation {
+  font-size: 20px;
+  padding: 16px 20px;
+  background-color: $yellow;
+  border-radius: 10px;
+  margin-bottom: 21px;
+
+  .description {
+    display: flex;
+    align-items: center;
+    color: #777777;
+    position: relative;
+    margin-bottom: 12px;
+  }
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:hover {
+    color: white;
+  }
+
+  small {
+    font-size: 12px;
+    margin-bottom: 4PX;
+  }
+
+  p {
+    text-decoration: underline;
+    font-size: 16px;
+  }
+}
+
+.comments {
+  font-size: 20px;
+}

@@ -1,0 +1,93 @@
+@import "src/assets/style/colors";
+
+.block {
+  padding: 94px 0 80px;
+  background-color: #F3F6F9;
+}
+
+.advertisement {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  row-gap: 44px;
+  margin-bottom: 60px;
+
+}
+
+.load {
+  max-width: 500px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto 60px;
+
+  @keyframes anim {
+    0% {
+      transform: rotate(0);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  img {
+    animation: anim infinite 3s;
+  }
+}
+
+.btnRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 52px;
+  column-gap: 18px;
+
+  button {
+    border: 1px solid $cyanDef;
+    border-radius: 6px;
+    background-color: inherit;
+    color: $cyanDef;
+    font-size: 26px;
+    font-weight: 700;
+    height: 52px;
+    width: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition-duration: .3s;
+
+    &.revers {
+      transform: rotate(180deg);
+    }
+
+    &.active {
+      background-color: $cyanDef;
+      color: white;
+    }
+
+    &:hover {
+      background-color: $cyanDef;
+      color: white;
+    }
+
+    svg {
+      height: 100%;
+      width: 100%;
+
+      &:hover {
+        path {
+          stroke: white;
+          stroke-width: 3px;
+        }
+      }
+    }
+  }
+}
+

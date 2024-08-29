@@ -18,6 +18,11 @@ body {
   @extend %btn
 }
 
+.btn-strk {
+  @extend %btn-stroke
+}
+
+
 .input {
   @extend %input
 }
