@@ -1,3 +1,73 @@
 .main {
   padding-top: 154px;
 }
+
+@import "src/assets/style/colors";
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 36px 0;
+
+  background-image: url("../../assets/img/banner/back-banner.png");
+  background-size: cover;
+
+  h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+  .btn {
+    padding: 16px 36px;
+    text-transform: uppercase;
+  }
+}
+
+.bannerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  column-gap: 20px;
+}
+
+.block2 {
+  padding: 98px 0 69px;
+
+  .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .left {
+    max-width: 698px;
+    margin-right: 20px;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 48px;
+  }
+
+  p {
+    margin-bottom: 26px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .image {
+    max-width: 677px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
