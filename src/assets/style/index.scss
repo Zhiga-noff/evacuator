@@ -1,0 +1,13 @@
+@import "src/assets/style/colors";
+@import "src/assets/style/normalize";
+@import "src/assets/style/fonts";
+
+body {
+  font-family: "SFProDisplay", serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
