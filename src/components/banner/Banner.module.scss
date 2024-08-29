@@ -1,0 +1,30 @@
+@import "src/assets/style/colors";
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 36px 0;
+
+  background-image: url("../../assets/img/banner/back-banner.png");
+  background-position: -10px center;
+  background-size: 100% auto;
+}
+
+h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+
+  a {
+    color: $link;
+    transition-duration: .3s;
+    text-decoration: underline;
+
+    &:hover {
+      color: $cyanDef;
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,18 +1,10 @@
 @import "src/assets/style/colors";
 
-header {
-  padding: 21px 100px;
-  width: 100%;
-  position: fixed;
-  background-color: white;
+footer {
+  padding: 41px 0 87px;
+  background-color: $grey;
 }
 
-.headerRow {
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
 .logo {
   max-width: 112px;
@@ -22,30 +14,26 @@ header {
   }
 }
 
-.rowBtn {
-  text-transform: uppercase;
+.footerRow {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: 135px;
 }
 
-ul {
+.footerMenu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: 78px;
+  flex-wrap: wrap;
+  font-size: 16px;
+  text-transform: uppercase;
 
   a {
-    color: $text;
+    color: white;
     transition-duration: .3s;
 
     &:hover {
       color: $cyanDef;
     }
   }
-}
-
-.btn {
-  padding: 16px 36px;
 }
