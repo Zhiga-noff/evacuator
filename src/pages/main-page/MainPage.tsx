@@ -10,9 +10,13 @@ import image1 from 'assets/img/main-pg/how-call-evacuator.png';
 import image2 from 'assets/img/main-pg/evacuator-24.png'
 import image3 from 'assets/img/main-pg/top-car.png'
 import image4 from 'assets/img/advantages/advantages.png'
+import image5 from 'assets/img/main-pg/call-message.png'
+import image6 from 'assets/img/main-pg/block-evacuators.png'
+
 import {priceInfoConstant} from "../../libs/constants/price-info.constant";
 import {PriceInfoCard} from "../../components/price-info-card/PriceInfoCard";
 import {Slider} from "../../components/slider/Slider";
+import {TabContainer} from "../../components/tab-container/TabContainer";
 
 export const MainPage = () => {
     return (
@@ -163,6 +167,61 @@ export const MainPage = () => {
                 </div>
 
             </article>
+            <article className={styles.block7}>
+                <div className={styles.row}>
+                    <div className={styles.information}>
+                        <h3>Что необходимо сообщить
+                            при заказе эвакуатора</h3>
+                        <p>Чтобы выбрать эвакуатор с необходимыми техническими параметрами и минимизировать расходы, при
+                            вызове эвакуатора следует указать:</p>
+                        <ul className={styles.list}>
+                            <li>марку, модель, год выпуска и полную массу авто</li>
+                            <li>характер неисправности ТС</li>
+                            <li>состояние ходовой части, трансмиссии, рулевого управления</li>
+                            <li>адрес подачи эвакуатора и пункт конечного назначения в Москве</li>
+                            <li>наличие ключей от авто и документов, подтверждающих право на управление ТС (водительские
+                                права, техпаспорт и доверенность, если вы не собственник авто)
+                            </li>
+                        </ul>
+                    </div>
+                    <div className={styles.image}>
+                        <img src={image5} alt="Что необходимо сообщить
+                            при заказе эвакуатора"/>
+                    </div>
+                </div>
+                <div className={clsx(styles.row, styles.revers)}>
+                    <div className={styles.information}>
+                        <h3>Как эвакуировать авто с заблокированными колесами</h3>
+                        <p>При помощи сервиса ТутЭвакуатор.Ру вы сможете вызвать эвакуатор в экстренных ситуациях,
+                            например, когда колеса авто заблокированы или ходовая ТС критически пострадала в результате
+                            аварии.
+                        </p>
+                        <p> Перевозка автомобиля с заблокированными колесами возможна несколькими типами
+                            эвакуаторов:</p>
+                        <ul className={styles.list}>
+                            <li>Эвакуатор с манипулятором. На ТС устанавливают четыре колесных захвата, закрепленных на
+                                широких текстильных стропах. С помощью специальных петель оператор манипулятора
+                                регулирует длину строп, чтобы при перемещении на эвакуатор авто не кренилось. Стропы
+                                присоединяют
+                                к линейной или H-образной траверсе.
+                                Кран-манипулятор подхватывает траверсу
+                                за проушину, поднимает автомобиль
+                                и загружает на платформу эвакуатора.
+                            </li>
+                            <li>Эвакуатор с гидроплатформой
+                                (без аппарелей) и лебедкой. Авто приподнимают домкратом,
+                                под заблокированные колеса устанавливают подкатные тележки. При помощи лебедки авто
+                                затягивают на наклонную платформу эвакуатора. После этого платформу эвакуатора приводят
+                                в горизонтальное положение.
+                            </li>
+                        </ul>
+                    </div>
+                    <div className={styles.image}>
+                        <img src={image6} alt="Как эвакуировать авто с заблокированными колесами"/>
+                    </div>
+                </div>
+            </article>
+            <TabContainer/>
         </main>
     );
 };
