@@ -1,0 +1,48 @@
+@import "src/assets/style/colors";
+
+.infoCard {
+  position: relative;
+  background-color: $cyanDef;
+  border-radius: 20px;
+  flex: 1 1 25%;
+  padding: 30px 20px;
+}
+
+.imageIcon {
+  position: absolute;
+  width: 149px;
+  height: 149px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  top: -73px;
+
+  background-color: $cyanDef;
+  border-radius: 50%;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  img {
+    max-width: 80px;
+    margin-top: 12px;
+  }
+}
+
+.description {
+  color: white;
+  text-align: center;
+  z-index: 3;
+  position: relative;
+
+  h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 17px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,41 @@
+.sliderStyle {
+  margin-top: 32px;
+  display: flex;
+  padding-right: 10px;
+  position: relative;
+
+  :global .swiper-pagination {
+    //position: absolute;
+    //top: 0;
+    height: 20px;
+    display: flex;
+    margin: 0 auto;
+    column-gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.wrap {
+  padding: 10px;
+
+  .el {
+    height: auto;
+  }
+
+}
+
+.bullet {
+  background-color: #B3C8D1;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &.active {
+    background-color: #0297D4FF
+  }
+}
+
+.contr {
+}
