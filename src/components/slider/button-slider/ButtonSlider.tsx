@@ -12,9 +12,15 @@ const ButtonSliderRef: ForwardRefRenderFunction<HTMLButtonElement, IProps> = (
 ) => (
     <button {...restProps} id={id} ref={ref}>
         {type === 'next' ? (
-            <img src="/mediaholding/image/layout/next.png" alt=""/>
+            <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" rx="5.5" stroke="#0297D4"/>
+                <path d="M21 14L33 26L21 38" stroke="#0297D4" strokeWidth="2" strokeLinecap="round"/>
+            </svg>
         ) : (
-            <img src="/mediaholding/image/layout/prev.png" alt=""/>
+            <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" rx="5.5" stroke="#0297D4"/>
+                <path d="M21 14L33 26L21 38" stroke="#0297D4" strokeWidth="2" strokeLinecap="round"/>
+            </svg>
         )}
     </button>
 );

@@ -1,3 +1,5 @@
+@import "src/assets/style/colors";
+
 .sliderStyle {
   margin-top: 32px;
   display: flex;
@@ -33,9 +35,46 @@
   cursor: pointer;
 
   &.active {
-    background-color: #0297D4FF
+    background-color: $cyanDef
   }
 }
 
-.contr {
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 52px;
+  height: 52px;
+  z-index: 5;
+  background-color: inherit;
+  border-radius: 6px;
+  border: 1px solid $cyanDef;
+  transition-duration: .3s;
+
+  &.next {
+    right: -92px;
+  }
+
+  &.prev {
+    left: -92px;
+    transform: rotate(180deg);
+  }
+
+  &:hover {
+    background-color: $cyanDef;
+
+    path {
+      stroke: white;
+      stroke-width: 3px;
+    }
+  }
+
+  svg {
+    width: 100%;
+  }
+}
+
+.gapEl {
+
+  position: relative;
 }
